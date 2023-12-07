@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Ultimatum;
+    src: url(./layout/assets/fonts/cc-ultimatum-regular.otf);
+  }
+  @font-face {
+    font-family: Ultimatum-l;
+    src: url(./layout/assets/fonts/cc-ultimatum-light.otf);
+    font-weight: lighter;
+  }
+  @font-face {
+    font-family: Ultimatum-br;
+    src: url(./layout/assets/fonts/cc-ultimatum-heavy.otf);
+    font-weight: bolder;
+  }
+  @font-face {
+    font-family: Ultimatum-b;
+    src: url(./layout/assets/fonts/cc-ultimatum-bold.otf);
+    font-weight: bold;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100;400;700&display=swap");
+  
+  body {
+    font-family: Ultimatum;
+    background-color: #10072b;
+    color: white;
+  }
+
+  h1{
+    font-family: Ultimatum-br;
+    font-size: clamp(1.5em, 1.5em + 2vw, 5em);
+  }
+
+  p {
+    font-family: Ultimatum-l;
+    font-size: clamp(.8em, .8em + 1vw, 1.5em);
+  }
+
+  #nav-bar {
+    border-bottom: 0.5px solid #7b25c3;
+  }
+  
+  .custom-img-card-overlay{
+    opacity: 45%;
+  }
+
+  .text-hide {
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+  }
+
+  #spot-card {
+    background-color: #101728;
+    border: 0.5px solid #7b25c3;
+  }
+
+  ul > li{
+    font-family: Ultimatum-l;
+  }
+
+  @media (min-width: 991.98px) { 
+    #profile-card{
+      max-width: 500px;
+      max-height: 500px;
+    }
+  }
+  @media (max-width: 991.98px) { 
+    #img-profile {
+      width: 180px;
+      max-height: 180px;
+    }
+  }
+  @media (min-width: 768.98px) { 
+    #img-home-news-card{
+      height: 120px;
+    }
+  }
+
+  #logo-full{
+    margin-bottom: 60px;
+    padding: 0;
+  }
+
+  #title-menu-cards{
+    background-color: rgba(0,0,0,0.65);
+  }

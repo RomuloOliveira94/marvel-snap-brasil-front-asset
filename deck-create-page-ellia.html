@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Marvel Snap Brasil</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="new-style.css" />
+  </head>
+  <body>
+    <nav
+        id="nav-bar"
+      class="navbar navbar-expand-lg navbar-dark fs-5"
+      style="background-color: #101728"
+    >
+      <div
+        class="collapse navbar-collapse order-lg-1 order-3"
+        id="myNavbarToggler7"
+      >
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Novidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Meta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Spotlight</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bundles</a>
+          </li>
+        </ul>
+      </div>
+      <a class="navbar-brand order-1 position-relative d-none d-lg-block" href="#">
+        <img
+          id="logo-full"
+          width="180px"
+          class="position-absolute top-100 start-100 translate-middle"
+          src="layout/assets/ms-br-logo.png"/> 
+      </a>
+      <a class="order-1 mr-lg-0 d-lg-none" href="#">
+        <img
+          id="logo-responsive"
+          class="position-absolute top-0 start-50 translate-middle-x"
+          width="180px"
+          src="layout/assets/ms-br-logo.png"
+      />
+      </a>
+      <button
+        class="navbar-toggler order-0 mx-2"
+        type="button"
+        data-toggle="collapse"
+        data-target="#myNavbarToggler7"
+        aria-controls="myNavbarToggler7"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse order-lg-1 order-4"
+        id="myNavbarToggler7"
+      >
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cartas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Decks</a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link" href="#">Criação de Decks</a>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Registro</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="container">
+    <div id="cards-container" class="d-grid mt-5">
+        <div class="mb-3 row">
+          <h1 class="text-center">Crie seu deck</h1>
+        </div>
+        <div class="form-group d-flex justify-content-sm-center justify-content-around align-items-center mb-3">
+          <label for="title" class="fs-3">Titulo do deck</label>
+          <div>
+            <input type="password" class="form-control mx-sm-3" id="title" placeholder="Título">
+          </div>
+        </div>
+        <div id="decks-card" class="row bg-dark px-2 px-sm-3 mb-3 mx-auto rounded-3" style="max-width: 95%;">
+          <div class="col-9 row bg-gradient rounded-3 g-2 p-2">
+            <div class="col-lg-2 col-3" >
+              <a href="/cartas/{nome da carta}">
+                <img src="layout/assets/card-frame-placeholder.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-3">
+              <a href="/cartas/{nome da carta}">
+                <img src="layout/assets/card-frame-placeholder.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-3">
+              <a href="/cartas/{nome da carta}">
+                <img src="layout/assets/card-frame-placeholder.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-3">
+              <a href="/cartas/{nome da carta}">
+                <img src="layout/assets/card-frame-placeholder.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-3">
+              <a href="/cartas/{nome da carta}">
+                <img src="layout/assets/card-frame-placeholder.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-3">
+              <a href="/cartas/{nome da carta}">
+                <img src="layout/assets/card-frame-placeholder.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-3">
+              <a href="/cartas/{nome da carta}">
+                <img src="layout/assets/card-frame-placeholder.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-3">
+              <a href="/cartas/{nome da carta}">
+                <img src="layout/assets/card-frame-placeholder.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-3">
+              <a href="/cartas/{nome da carta}">
+                <img src="layout/assets/card-frame-placeholder.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-3">
+              <a href="/cartas/{nome da carta}">
+                <img src="layout/assets/card-frame-placeholder.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-3">
+              <a href="/cartas/{nome da carta}">
+                <img src="layout/assets/card-frame-placeholder.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-3">
+              <a href="/cartas/{nome da carta}">
+                <img src="layout/assets/card-frame-placeholder.webp" class="img-fluid" alt="...">
+              </a>
+            </div>           
+          </div>
+          <div class="col-2 m-lg-auto my-auto justify-content-center">
+            <div class="row">
+              <h2 class="fs-1 text-lg-start text-center">Custo: 3.5</h2>
+              <h2 class="fs-1 text-lg-start text-center">Poder: 3.8</h2>
+            </div>
+          </div>
+          <div class="row mt-2 m-auto">
+            <button href="#" class="btn btn-outline-primary btn">
+               Copiar
+              <i class="fa-solid fa-copy fs-3 text-end mx-2"></i>
+            </button>
+          </div>
+          <div class="row mt-2 m-auto">
+            <button href="#" class="btn btn-outline-warning btn">
+               Importar
+              <i class="fa-solid fa-file-import fs-3 text-end mx-2"></i>
+            </button>
+          </div>
+          <div class="row mt-2 m-auto">
+            <button href="#" class="btn btn-outline-danger btn">
+               Limpar
+              <i class="fa-solid fa-broom fs-3 text-end mx-2"></i>
+            </button>
+          </div>
+          <div class="row mt-2 m-auto">
+            <button href="#" class="btn btn-outline-success btn">
+               Salvar
+              <i class="fa-solid fa-save fs-3 text-end mx-2"></i>
+            </button>
+          </div>
+        </div>
+        <div id="cards-container" class="d-grid">
+          <div class="mb-3 row">
+            <h1 class="text-center">Cartas</h1>
+          </div>
+          <div  id='utilities' class="row m-auto">
+            <div class="row m-auto justify-content-center">
+              <div class="col-lg-6 col-6 mb-2">
+                <input class="form-control" type="text" placeholder="Pesquisar" aria-label="default input example">
+              </div>
+              <div class="col-lg-3 col-5">
+                <div class="input-group mb-3">
+                  <select class="form-select" id="inputGroupSelect02">
+                    <option selected>Ordenar</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col d-none d-lg-flex justify-content-lg-center  text-center">                   
+                <i class="fa-solid fa-table-cells-large fs-1 mx-1 row"></i>          
+                <i class="fa-solid fa-table-cells fs-1 mx-1 row"></i>              
+              </div>
+            </div>
+            <button class="btn btn-secondary btn-sm row mb-3 bg-dark w-25 text-light m-auto">Pesquisar</button>
+          </div>  
+          <div id="cartas" class="row m-auto">
+            <div class="col-lg-2 col-6 mb-2">
+              <a href="/cartas/{nome da carta}">
+                <img src="layout/assets/ArnimZola.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-6 mb-2">
+              <a href="/cartas">
+                <img src="layout/assets/ArnimZola.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-6 mb-2">
+              <a href="/cartas">
+                <img src="layout/assets/ArnimZola.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-6 mb-2">
+              <a href="/cartas">
+                <img src="layout/assets/ArnimZola.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-6 mb-2">
+              <a href="/cartas">
+                <img src="layout/assets/ArnimZola.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-6 mb-2">
+              <a href="/cartas">
+                <img src="layout/assets/ArnimZola.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-6 mb-2">
+              <a href="/cartas">
+                <img src="layout/assets/ArnimZola.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-6 mb-2">
+              <a href="/cartas">
+                <img src="layout/assets/ArnimZola.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+            <div class="col-lg-2 col-6 mb-2">
+              <a href="/cartas">
+                <img src="layout/assets/ArnimZola.webp" class="img-fluid" alt="...">
+              </a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

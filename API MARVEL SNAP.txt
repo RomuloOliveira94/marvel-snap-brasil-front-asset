@@ -1,0 +1,15 @@
+localizações
+https://marvelsnapzone.com/getinfo/?searchtype=locations&searchcardstype=true
+cartas
+https://marvelsnapzone.com/getinfo/?searchtype=cards&searchcardstype=true
+
+
+outra api
+https://marvel-snap-crawler.vercel.app/api/cards
+
+bundles
+https://static2.marvelsnap.pro/snap/do.php?cmd=getbundles
+
+spotilight cache
+
+https://marvelsnap.pro/snap/do.php?cmd=getspotlight
